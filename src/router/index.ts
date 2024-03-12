@@ -5,7 +5,7 @@ import routes from './routes';
 export const router: Router = createRouter({
     history: createWebHashHistory(),
     routes,
-    scrollBehavior(to, from, savedPosition) {
+    scrollBehavior(_, from, savedPosition) {
         return new Promise((resolve) => {
             if (savedPosition) {
                 return savedPosition;

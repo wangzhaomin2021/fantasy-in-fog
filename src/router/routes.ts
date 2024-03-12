@@ -48,8 +48,13 @@ export default [
         children: [
             {
                 path: 'uuid',
-                name: 'uuid',
+                name: 'o-n-case/uuid',
                 component: () => import('@/views/o-n/uuid/index.vue')
+            },
+            {
+                path: 'base64',
+                name: 'o-n-case/base64',
+                component: () => import('@/views/o-n/base64/index.vue')
             }
 
         ]
