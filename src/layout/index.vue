@@ -19,6 +19,7 @@ import LabIcon from '../components/icons/header-bar/LabIcon.vue';
 import GithubIcon from '../components/icons/header-bar/GithubIcon.vue';
 import CaseIcon from '../components/icons/header-bar/CaseIcon.vue';
 import ToolsIcon from '../components/icons/header-bar/ToolsIcon.vue';
+import LinkIcon from '@/components/icons/header-bar/LinkIcon.vue';
 
 import type { NavOpt } from './types';
 
@@ -37,6 +38,11 @@ const navs = shallowRef<NavOpt[]>([
         title: '工具',
         icon: ToolsIcon,
         path: '/tools'
+    },
+    {
+        title: '导航',
+        icon: LinkIcon,
+        path: '/link'
     },
     {
         title: '留言板',

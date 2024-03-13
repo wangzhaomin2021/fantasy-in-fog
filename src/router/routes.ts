@@ -25,6 +25,11 @@ export default [
                 component: () => import('@/views/message/index.vue')
             },
             {
+                path: '/link',
+                name: 'link',
+                component: () => import('@/views/link/index.vue')
+            },
+            {
                 path: '/friends',
                 name: 'friends',
                 component: () => import('@/views/friends/index.vue')
